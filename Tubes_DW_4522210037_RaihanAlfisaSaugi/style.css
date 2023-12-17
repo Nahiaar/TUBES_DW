@@ -1,0 +1,184 @@
+/* Gaya umum */
+body {
+    font-family: 'times new roman', sans-serif;
+    background-image: url('Image/Poss.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    background-color: #000000;
+    
+}
+
+.carousel slide{
+    margin-top: -100px;
+}
+
+
+.teksindex{
+    border: 1px solid #ddd;
+    background-color: #ffffff98;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.teksindex:hover{
+    background-color: #ffffff;
+}
+
+
+/* Gaya header */
+.header {
+    padding: 15px 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header img {
+    max-height: 40px;
+}
+
+.header span {
+    font-weight: bold;
+}
+
+/* Gaya pencarian */
+.input-group {
+    width: 100%;
+}
+
+/* Gaya banner toko */
+.img-fluid.rounded {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Gaya produk grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff98;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.product:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Gaya tombol ikuti */
+.btn-primary {
+    margin-top: 10px;
+}
+
+/* Gaya Footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+/* Gaya dropdown */
+.dropdown-menu {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 2.5px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #999999;
+}
+
+.keranjang-item {
+    border: 1px solid #ddd;
+    background-color: #ffffff48;
+    text-align: center;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.keranjang-item:hover{
+    background-color: #ffffff;
+}
+
+.keranjang-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.form-label.required::before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+}
+
+.container.mt-3 {
+    margin-bottom: 162px;
+}
+.wishlist-item{
+    border: 1px solid #ddd;
+    background-color: #ffffff2b;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 50px;
+}
+
+.wishlist-item:hover{
+    background-color: #ffffff;
+}
+
+.edit-profile{
+    border: 1px solid #ddd;
+    background-color: #ffffff; 
+}
+
+@media only screen and (max-width: 672px) {
+    body {
+      background-image: url(Image/Possmobile.png);
+    }
+
+    .teksindex{
+        font-size: small;
+    }
+  }
